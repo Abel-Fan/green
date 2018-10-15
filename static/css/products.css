@@ -1,0 +1,380 @@
+@import url(base.css);
+header{
+    width: 100%;
+    height: 67px;
+}
+header main{
+    width: 100%;
+    padding: 0 40px;
+}
+header main .mar{
+    margin: 0 35px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 235px;
+    height: 47px;
+    padding: 10px 10px 10px 0;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+.logo a{
+    display: block;
+    width: 128px;
+    height: 43px;
+}
+.logo a img{
+    display: block;
+    width: 128px;
+    height: 43px;
+}
+.right{
+    width: 945px;
+    height: 29px;
+    float: right;
+}
+.right ul{
+    width: 945px;
+    height: 29px;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+.right ul li{
+    height: 29px;
+    margin:0 30px;
+}
+.right ul li:first-child{
+    height: 29px;
+    margin-left:0;
+}
+.right ul li:nth-child(2) a{
+    color: #4bb344;
+}
+.right ul li a{
+    display: block;
+    color: #999;
+    font-size: 14px;
+    line-height: 29px;
+}
+.right ul li a:hover{
+    color: #4bb344;
+}
+span .line{
+    width: 100%;
+    height: 1px;
+    background:#e5e5e5;
+}
+.bg{
+    background-image: url("../img/bg-two.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 0 0%;
+    height: 960px;
+    position: relative;
+}
+.news1{
+    width:944px;
+    height: 135px;
+    position: absolute;
+    top: 133px;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 40px;
+}
+.news1 .new{
+    height: 74px;
+    font-family: Oswald;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    color: #4bb344;
+    vertical-align: bottom;
+    text-align: center;
+}
+.news1 .new a{
+    display: block;
+    height: 74px;
+    font-family: Oswald;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    color: #4bb344;
+    vertical-align: bottom;
+    text-align: center;
+}
+.news1 .xilie{
+    height: 29px;
+    font-family: 微软雅黑;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+    vertical-align: bottom;
+    text-align: center;
+    position: relative;
+}
+.news1 .xilie a{
+    display: block;
+    height: 29px;
+    font-family: 微软雅黑;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+    vertical-align: bottom;
+    text-align: center;
+    position: relative;
+}
+.span1{
+    overflow: hidden;
+    border-bottom-style: solid;
+    width: 58px;
+    border-bottom-width: 1px;
+    border-bottom-color: #ededed;
+    display: inline-block;
+    float: none;
+    height: 1px;
+    margin: 0 auto;
+    position: absolute;
+    left: 350px;
+    top: 0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.span2{
+    overflow: hidden;
+    border-bottom-style: solid;
+    width: 58px;
+    border-bottom-width: 1px;
+    border-bottom-color: #ededed;
+    display: inline-block;
+    float: none;
+    height: 1px;
+    margin: 0 auto;
+    position: absolute;
+    right: 350px;
+    top: 0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.classify{
+    width: 1110px;
+    height: 35px;
+    position: absolute;
+    top: 275px;
+    right: 0;
+    left: 0;
+    margin:0 auto;
+}
+.classify ul{
+    width: 1110px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.classify ul li{
+    width: 100px;
+    height: 31px;
+    float: left;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(226,226,226,1);
+}
+.classify ul li a{
+    display: block;
+    text-align: center;
+    color: #aaa;
+    font-family: "微软雅黑";
+    font-size: 13px;
+    background-color: #ffffff;
+}
+/*.classify ul li:hover{*/
+    /*border: 1px solid rgba(170,170,170,1);*/
+/*}*/
+/*.classify ul li:hover a{*/
+    /*color: #191919;*/
+/*}*/
+.content1{
+    width: 1170px;
+    height: 692px;
+    position: absolute;
+    top: 350px;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.content1 .all{
+     width: 1190px;
+     height: 346px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     display: none;
+ }
+.content1 .all1{
+    width: 1190px;
+    height: 692px;
+}
+
+.content1 .all li{
+    width: 272px;
+    height: 309px;
+    background: white;
+    padding: 20px 20px;
+    border: 1px solid rgba(221,221,221,1);
+    box-sizing: border-box;
+    float: left;
+    margin: 15px 10px;
+    position: relative;
+    transition: all .6s ease;
+}
+.content1 ul li .tu{
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+.content1 ul li .tu a{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.content1 ul li .tu a img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    transition: all .6s ease;
+}
+.content1 ul li .bott{
+    padding-top: 25px;
+    padding-bottom: 3px;
+    font-weight: normal;
+    color: #333333;
+    line-height: 14px;
+    vertical-align: top;
+    text-align: center;
+    width: 100%;
+}
+.content1 ul li .bott a{
+    display: block;
+    color: #333333;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    line-height: 20px;
+}
+.content1 ul li:hover{
+    border: 1px solid #4bb344;
+}
+.content1 ul li:hover img{
+    transform: scale(1.2,1.2);
+}
+.content1 ul li:hover a{
+    color: #4bb344;
+}
+footer{
+    width: 100%;
+    height: 238px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-top: 110px;
+    background: #f0f0f0;
+}
+footer .top{
+    width: 934px;
+    height: 188px;
+    margin: 0 auto;
+}
+footer .top ul{
+    width: 934px;
+    height: 188px;
+    padding-top: 26px;
+}
+footer .top ul li{
+    width: 223.5px;
+    height: 148px;
+    float: left;
+}
+footer .top ul li .ttop{
+    font-family: "微软雅黑";
+    font-weight: 700;
+    font-size: 15px;
+    color: #393939;
+    line-height: 15px;
+}
+footer .top ul li .btop{
+    font-size: 12px;
+    line-height: 2;
+    color: #A9A9A9;
+    padding-right: 34px;
+    padding-top: 32px;
+}
+footer .top ul .btop1{
+    margin-top: 37px;
+}
+footer .top ul .btop2{
+    margin-top: 37px;
+}
+footer .top ul .btop1 div{
+    height: 17px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #A9A9A9;
+    margin-bottom: 9px;
+}
+footer .top ul .btop2 div{
+    height: 17px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #A9A9A9;
+    margin-bottom: 9px;
+}
+footer .top ul .btop2 div a{
+    display: block;
+    font-size: 13px;
+    line-height: 15px;
+    color: #A9A9A9;
+}
+footer .top ul li img{
+    display: block;
+    width: 76px;
+    height: 76px;
+    margin-top: 30px;
+}
+footer .bottom{
+    color: rgb(128, 128, 128);
+    font-family: 微软雅黑, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.font{
+    position: fixed;
+    right: 26px;
+    bottom: 36px;
+    z-index: 99;
+}
+.font a{
+    display: block;
+    color: #000;
+}
+.font:hover{
+    background: #000000;
+}
+.font:hover .icon-huidingbu{
+    color:#fff;
+}

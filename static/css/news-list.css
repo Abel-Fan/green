@@ -1,0 +1,236 @@
+@import url(base.css);
+header{
+    width: 100%;
+    height: 67px;
+}
+header main{
+    width: 100%;
+    padding: 0 40px;
+}
+header main .mar{
+    margin: 0 35px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 235px;
+    height: 47px;
+    padding: 10px 10px 10px 0;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+.logo a{
+    display: block;
+    width: 128px;
+    height: 43px;
+}
+.logo a img{
+    display: block;
+    width: 128px;
+    height: 43px;
+}
+.right{
+    width: 945px;
+    height: 29px;
+    float: right;
+}
+.right ul{
+    width: 945px;
+    height: 29px;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+.right ul li{
+    height: 29px;
+    margin:0 30px;
+}
+.right ul li:first-child{
+    height: 29px;
+    margin-left:0;
+}
+.right ul li a{
+    display: block;
+    color: #999;
+    font-size: 14px;
+    line-height: 29px;
+}
+.right ul li a:hover{
+    color: #4bb344;
+}
+.big{
+    width: 1340px;
+    height: 1740px;
+    position: relative;
+}
+.big .container{
+    /*width: 100%;*/
+    height: 1720px;
+    padding: 20px 40px 0 50px;
+}
+.big .container  ul{
+    width: 1259px;
+    height: 1720px;
+    /*position: absolute;*/
+    /*top: 58px;*/
+    /*right: 119px;*/
+}
+.big .container ul li{
+    width: 1246px;
+    height: 151px;
+    float: left;
+    margin-bottom: 10px;
+    padding: 0 5px 10px 5px;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+.big .container ul li .picture{
+    overflow: hidden;
+    width: 214px;
+    height: 151px;
+    float: left;
+    padding-right: 10px;
+
+}
+.big .container ul li .picture a{
+    width: 214px;
+    height: 147px;
+}
+.big .container ul li .picture a img{
+    width: 200px;
+    height: 133px;
+    padding: 6px;
+    border: 1px solid #cccccc;
+}
+.big .container ul li .rr{
+    width: 1017px;
+    height: 151px;
+    float: left;
+}
+.big .container ul li .biaoti {
+    font-weight: normal;
+    color: #000000;
+    line-height: 16px;
+    vertical-align: top;
+    text-align: left;
+    width: 1017px;
+    height: 14px;
+    margin-bottom: 10px;
+}
+
+.big .container ul li .biaoti a{
+    font-family: "微软雅黑";
+    color: #666666;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+}
+.big .container ul li .biaoti a:hover{
+    color: #4bb344;
+}
+.big .container ul li .date{
+    color: #666;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 5px;
+}
+.big .container ul li p{
+    color: #494e56;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    line-height: 20px;
+    width: 1017px;
+}
+footer{
+    width: 100%;
+    height: 238px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    background: #f0f0f0;
+}
+footer .top{
+    width: 934px;
+    height: 188px;
+    margin: 0 auto ;
+}
+footer .top ul{
+    width: 934px;
+    height: 188px;
+    padding-top: 26px;
+}
+footer .top ul li{
+    width: 223.5px;
+    height: 148px;
+    float: left;
+}
+footer .top ul li .ttop{
+    font-family: "微软雅黑";
+    font-weight: 700;
+    font-size: 15px;
+    color: #393939;
+    line-height: 15px;
+}
+footer .top ul li .btop{
+    font-size: 12px;
+    line-height: 2;
+    color: #A9A9A9;
+    padding-right: 34px;
+    padding-top: 32px;
+}
+footer .top ul .btop1{
+    margin-top: 37px;
+}
+footer .top ul .btop2{
+    margin-top: 37px;
+}
+footer .top ul .btop1 div{
+    height: 17px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #A9A9A9;
+    margin-bottom: 9px;
+}
+footer .top ul .btop2 div{
+    height: 17px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #A9A9A9;
+    margin-bottom: 9px;
+}
+footer .top ul .btop2 div a{
+    display: block;
+    font-size: 13px;
+    line-height: 15px;
+    color: #A9A9A9;
+}
+footer .top ul li img{
+    display: block;
+    width: 76px;
+    height: 76px;
+    margin-top: 30px;
+}
+footer .bottom{
+    color: rgb(128, 128, 128);
+    font-family: 微软雅黑, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.font{
+    position: fixed;
+    right: 26px;
+    bottom: 36px;
+    z-index: 99;
+}
+.font a{
+    display: block;
+    color: #000;
+}
+.font:hover{
+    background: #000000;
+}
+.font:hover .icon-huidingbu{
+    color:#fff;
+}

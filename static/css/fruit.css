@@ -1,0 +1,458 @@
+@import url(base.css);
+header{
+    width: 100%;
+    height: 67px;
+}
+header main{
+    width: 100%;
+    padding: 0 40px;
+}
+header main .mar{
+    margin: 0 35px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 235px;
+    height: 47px;
+    padding: 10px 10px 10px 0;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+.logo a{
+    display: block;
+    width: 128px;
+    height: 43px;
+}
+.logo a img{
+    display: block;
+    width: 128px;
+    height: 43px;
+}
+.right{
+    width: 945px;
+    height: 29px;
+    float: right;
+}
+.right ul{
+    width: 945px;
+    height: 29px;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+.right ul li{
+    height: 29px;
+    margin:0 30px;
+}
+.right ul li:first-child{
+    height: 29px;
+    margin-left:0;
+}
+.right ul li a{
+    display: block;
+    color: #999;
+    font-size: 14px;
+    line-height: 29px;
+}
+.right ul li a:hover{
+    color: #4bb344;
+}
+span .line{
+    width: 100%;
+    height: 1px;
+    background:#e5e5e5;
+}
+.big{
+    width: 1340px;
+    height: 738px;
+    position: relative;
+}
+.big .container{
+    /*width: 100%;*/
+    height: 825px;
+    padding: 0 40px;
+}
+.big .container .left{
+    width: 230px;
+    height: 126px;
+    float: left;
+    margin-top: 59px;
+    margin-left: 80px;
+}
+.big .container .left ul{
+    width: 230px;
+    height: 126px;
+}
+.big .container .left ul li{
+    width: 228px;
+    height: 41px;
+    border: 1px solid #e0e0e0;
+    font-family: "微软雅黑";
+    font-size: 13px;
+    color: #999;
+    line-height: 41px;
+    border-top: none;
+}
+.big .container .left ul li:first-child{
+    background: #999;
+    color: #fff;
+}
+.big .container .left ul li:last-child,.big .container .left ul li:nth-child(2){
+    border-top: none;
+}
+.big .container .left ul li a {
+    display: block;
+    width: 228px;
+    height: 41px;
+    font-family: "微软雅黑";
+    font-size: 13px;
+    color: #999;
+}
+.big .container .left ul li a:hover{
+    color: #4bb344;
+}
+.xing{
+    float: right;
+    margin-right: 12px;
+}
+.big .container .right1{
+    width: 840px;
+    height: 598px;
+    float: right;
+    margin: 58px 60px 0px 30px;
+    border: 1px solid #e0e0e0;
+    padding: 51px 30px 25px;
+    box-sizing: border-box;
+}
+.name{
+    width: 768px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+.name .name-big{
+    height: 29px;
+    font-family: "微软雅黑";
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+    padding: 0 10px 0 0;
+    display: inline-block;
+    line-height: 29px;
+}
+.name .name-small{
+    height: 29px;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    color: #bababa;
+    display: inline-block;
+    padding: 2px;
+    line-height: 29px;
+}
+.dec{
+    width: 768px;
+    height: 436px;
+}
+.dec .dec-left{
+    width: 384px;
+    height: 436px;
+    float: left;
+}
+.price{
+    width: 355px;
+    height: 30px;
+    padding: 43px 0 10px;
+}
+.price .price-left{
+    font-size:14px;
+    font-family: "微软雅黑";
+    color: rgb(105, 105, 105);
+}
+.price .price-right{
+    font-size:26px;
+    font-family:georgia;
+    color:#008000;
+}
+.star{
+    width: 355px;
+    height: 27px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+.star-left{
+    color:#008000;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "微软雅黑";
+}
+.star-right{
+    color: rgb(169, 169, 169);
+    font-family: "微软雅黑";
+    font-size: 13px;
+}
+.des{
+    width: 355px;
+    height: 26px;
+    margin-bottom: 10px;
+    padding-top: 34px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted rgba(216,216,216,1);
+ }
+.des .des-left{
+    font-family: "微软雅黑";
+    color: rgb(89, 89, 89);
+    font-size:16px;
+    letter-spacing: 1px;
+}
+.des .des-right{
+    font-family:arial;
+    color:#A9A9A9;
+    font-size:12px;
+    letter-spacing: 1px;
+}
+.det{
+    width: 355px;
+    height: 84px;
+    padding-bottom: 27px;
+    font-family: "微软雅黑";
+    color: rgb(128, 128, 128);
+    font-size: 13px;
+    display:inline-block;
+    line-height:2;
+}
+.tubiao{
+    width: 355px;
+    height: 26px;
+    padding-top: 11px;
+}
+.tubiao span{
+    color:#000000;
+    font-family:"微软雅黑";
+}
+.tubiao .icon{
+    width: 130px;
+    height: 18px;
+}
+.tubiao .icon a{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 4px;
+    font-size: 12px;
+    border-radius: 50%;
+    line-height: 18px;
+    border: 1px solid #666;
+    color: #666;
+    text-align: center;
+    vertical-align: middle;
+    transition: background 0.6s ease-out 0s;
+    font-family: "socialshare";
+}
+.tubiao .icon .weixin{
+    color: #7bc549;
+    border-color: #7bc549;
+}
+.tubiao .icon .weixin:hover{
+    background: #7bc549;
+    color: white;
+}
+.tubiao .icon .douban{
+    color: #33b045;
+    border-color: #33b045;
+}
+.tubiao .icon .douban:hover{
+    background: #33b045;
+    color: white;
+}
+.tubiao .icon .face{
+    color: #44619D;
+    border-color: #44619D;
+}
+.tubiao .icon .face:hover{
+    background: #44619D;
+    color: white;
+}
+.tubiao .icon .google{
+    color: #db4437;
+    border-color: #db4437;
+}
+.tubiao .icon .google:hover{
+    background: #db4437;
+    color: white;
+}
+.tubiao .icon .linkedin{
+    color: #0077B5;
+    border-color: #0077B5;
+}
+.tubiao .icon .linkedin:hover{
+    background: #0077B5;
+    color: white;
+}
+.iconfont .icon-weixin{
+    font-size: 16px;
+}
+.iconfont{
+    font-size: 14px;
+}
+.apply{
+     width:355px;
+     height: 39px;
+     padding-top: 45px;
+     float: left;
+ }
+.apply a{
+    font-size: 13px;
+    padding: 10px 50px;
+    border: 1px solid rgb(75, 179, 68);
+    background: rgb(75, 179, 68);
+    color: rgb(255, 255, 255);
+}
+.apply a:hover{
+    background: white;
+    color: rgb(75, 179, 68);
+}
+.dec .dec-right{
+    width: 384px;
+    height: 431px;
+    float: right;
+}
+.fruit{
+    width: 332px;
+    height: 332px;
+    margin-left: 26px;
+    margin-top: 4px;
+    position: relative;
+    overflow: hidden;
+}
+.fruit img{
+    width: 332px;
+    height: 332px;
+    position: absolute;
+    left: 332px;
+    top: 0;
+}
+
+.fruit-list{
+    width: 336px;
+    height: 76px;
+    margin-left: 26px;
+}
+.fruit-list .first{
+    width: 80px;
+    height: 80px;
+    margin-right: 4px;
+    float: left;
+    position: relative;
+}
+.fruit-list .first img{
+    width: 80px;
+    height: 80px;
+}
+.bg{
+    width: 80px;
+    height: 80px;
+    background: rgba(255,255,255,0.5);
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+footer{
+    width: 100%;
+    height: 238px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-top: 70px;
+    background: #f0f0f0;
+}
+footer .top{
+    width: 934px;
+    height: 188px;
+    margin: 0 auto;
+}
+footer .top ul{
+    width: 934px;
+    height: 188px;
+    padding-top: 26px;
+}
+footer .top ul li{
+    width: 223.5px;
+    height: 148px;
+    float: left;
+}
+footer .top ul li .ttop{
+    font-family: "微软雅黑";
+    font-weight: 700;
+    font-size: 15px;
+    color: #393939;
+    line-height: 15px;
+}
+footer .top ul li .btop{
+    font-size: 12px;
+    line-height: 2;
+    color: #A9A9A9;
+    padding-right: 34px;
+    padding-top: 32px;
+}
+footer .top ul .btop1{
+    margin-top: 37px;
+}
+footer .top ul .btop2{
+    margin-top: 37px;
+}
+footer .top ul .btop1 div{
+    height: 17px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #A9A9A9;
+    margin-bottom: 9px;
+}
+footer .top ul .btop2 div{
+    height: 17px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #A9A9A9;
+    margin-bottom: 9px;
+}
+footer .top ul .btop2 div a{
+    display: block;
+    font-size: 13px;
+    line-height: 15px;
+    color: #A9A9A9;
+}
+footer .top ul li img{
+    display: block;
+    width: 76px;
+    height: 76px;
+    margin-top: 30px;
+}
+footer .bottom{
+    color: rgb(128, 128, 128);
+    font-family: 微软雅黑, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.font{
+    position: fixed;
+    right: 26px;
+    bottom: 36px;
+    z-index: 99;
+}
+.font a{
+    display: block;
+    color: #000;
+}
+.font:hover{
+    background: #000000;
+}
+.font:hover .icon-huidingbu{
+    color:#fff;
+}

@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family:"微软雅黑",Helvetica,Arial,Verdana,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: none;
+}
+button:focus{
+    outline: none;
+}
+button{
+    border: none;
+    background: none;
+}

@@ -1,0 +1,396 @@
+﻿@import url(base.css);
+header{
+    width: 100%;
+    height: 67px;
+}
+header main{
+    width: 100%;
+    padding: 0 40px;
+}
+header main .mar{
+    margin: 0 35px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 235px;
+    height: 47px;
+    padding: 10px 10px 10px 0;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+.logo a{
+    display: block;
+    width: 128px;
+    height: 43px;
+}
+.logo a img{
+    display: block;
+    width: 128px;
+    height: 43px;
+}
+.right{
+    width: 945px;
+    height: 29px;
+    float: right;
+}
+.right ul{
+    width: 945px;
+    height: 29px;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+.right ul li{
+    height: 29px;
+    margin:0 30px;
+}
+.right ul li:first-child{
+    height: 29px;
+    margin-left:0;
+}
+.right ul li:nth-child(4) a{
+    color: #4bb344;
+}
+.right ul li a{
+    display: block;
+    color: #999;
+    font-size: 14px;
+    line-height: 29px;
+}
+.right ul li a:hover{
+    color: #4bb344;
+}
+span .line{
+    width: 100%;
+    height: 1px;
+    background:#e5e5e5;
+}
+.big{
+    width: 1340px;
+    height: 825px;
+    position: relative;
+}
+.big .container{
+    /*width: 100%;*/
+    height: auto;
+    padding: 0 40px;
+}
+.big .container .left{
+    width: 230px;
+    height: auto;
+    float: left;
+    margin-top: 59px;
+    margin-left: 80px;
+}
+.big .container .left ul{
+    width: 230px;
+    height: auto;
+}
+.big .container .left ul li{
+    width: 228px;
+    height: 41px;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    font-family: "微软雅黑";
+    font-size: 13px;
+    color: #999;
+    line-height: 41px;
+}
+.big .container .left ul li:first-child{
+    background: #999;
+    color: #fff;
+}
+.big .container .left ul li a {
+    display: block;
+    width: 228px;
+    height: 41px;
+    font-family: "微软雅黑";
+    font-size: 13px;
+    color: #999;
+    padding-left: 6px;
+}
+.big .container .left ul li a:hover{
+    color: #4bb344;
+}
+.big .container .left ul li .green{
+    color: #4bb344;
+}
+.xing{
+    float: right;
+    margin-right: 12px;
+}
+.big .container .right1{
+    width: 828px;
+    height: 733px;
+    float: right;
+    margin: 58px 70px 0px 50px;
+    border: 1px solid #e0e0e0;
+    padding: 25px 30px;
+    box-sizing: border-box;
+}
+.big .container .right1 .area{
+    width: 768px;
+    height: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #adadad;
+    margin-bottom: 20px;
+}
+.big .container .right1 .area .dazi{
+    width: 768px;
+    height: 25px;
+    color: #000;
+    font-size:18px;
+    font-family: "微软雅黑";
+    line-height: 25px;
+    font-weight: 700;
+}
+.big .container .right1 .area .date{
+    width: 768px;
+    height: 25px;
+    color: #A9A9A9;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    line-height: 25px;
+}
+.big .container .right1 .arrive{
+    width: 768px;
+    height: 48px;
+}
+.big .container .right1 .arrive .arr-left{
+    width: 384px;
+    height: 48px;
+    float: left;
+}
+.big .container .right1 .arrive .arr-right{
+    width: 384px;
+    height: 48px;
+    float: right;
+}
+.big .container .right1 .arrive .arr-left .co-top{
+    width: 384px;
+    height: 24px;
+    font-size:15px;
+    font-family: "微软雅黑";
+    line-height: 24px;
+}
+.big .container .right1 .arrive .arr-left .co-top strong{
+   font-weight: 700;
+}
+.big .container .right1 .arrive .arr-left .co-bottom{
+    width: 384px;
+    height: 24px;
+    font-size:15px;
+    font-family: "微软雅黑";
+    line-height: 24px;
+}
+.big .container .right1 .arrive .arr-left .co-bottom strong{
+    font-weight: 700;
+}
+.des{
+    width: 768px;
+    height: 25px;
+    font-size:15px;
+    color: rgb(0, 0, 0);
+    line-height: 25px;
+    float: left;
+    margin-top: 24px;
+}
+.co-des{
+    width: 768px;
+    color:#808080;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    line-height: 25px;
+    float: left;
+}
+.apply{
+    width:768px;
+    height: 43px;
+    padding-top: 33px;
+    border-top: 1px dashed #adadad;
+    float: left;
+    margin-top: 30px;
+}
+button{
+    font-size: 16px;
+    padding: 10px 30px;
+    border: 1px solid rgb(75, 179, 68);
+    background: rgb(75, 179, 68);
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+button:hover{
+    background: white;
+    color: rgb(75, 179, 68);
+}
+footer{
+    width: 100%;
+    height: 238px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-top: 70px;
+    background: #f0f0f0;
+}
+footer .top{
+    width: 934px;
+    height: 188px;
+    margin: 0 auto;
+}
+footer .top ul{
+    width: 934px;
+    height: 188px;
+    padding-top: 26px;
+}
+footer .top ul li{
+    width: 223.5px;
+    height: 148px;
+    float: left;
+}
+footer .top ul li .ttop{
+    font-family: "微软雅黑";
+    font-weight: 700;
+    font-size: 15px;
+    color: #393939;
+    line-height: 15px;
+}
+footer .top ul li .btop{
+    font-size: 12px;
+    line-height: 2;
+    color: #A9A9A9;
+    padding-right: 34px;
+    padding-top: 32px;
+}
+footer .top ul .btop1{
+    margin-top: 37px;
+}
+footer .top ul .btop2{
+    margin-top: 37px;
+}
+footer .top ul .btop1 div{
+    height: 17px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #A9A9A9;
+    margin-bottom: 9px;
+}
+footer .top ul .btop2 div{
+    height: 17px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #A9A9A9;
+    margin-bottom: 9px;
+}
+footer .top ul .btop2 div a{
+    display: block;
+    font-size: 13px;
+    line-height: 15px;
+    color: #A9A9A9;
+}
+footer .top ul li img{
+    display: block;
+    width: 76px;
+    height: 76px;
+    margin-top: 30px;
+}
+footer .bottom{
+    color: rgb(128, 128, 128);
+    font-family: 微软雅黑, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.font{
+    position: fixed;
+    right: 26px;
+    bottom: 36px;
+    z-index: 99;
+}
+.font a{
+    display: block;
+    color: #000;
+}
+.font:hover{
+    background: #000000;
+}
+.font:hover .icon-huidingbu{
+    color:#fff;
+}
+.job{
+    width: 650px;
+    height: 500px;
+    background:#fff;
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0 0 1px 3000px rgba(0,0,0,0.7);
+    display: none;
+}
+.job .jobtitle{
+    text-align: center;
+    font-size:18px;
+    font-family: "微软雅黑";
+    line-height: 25px;
+    font-weight: 700;
+    color: #000;
+    padding: 20px;
+}
+.job .close{
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    cursor: pointer;
+}
+.job .joblist{
+    width: 85%;
+    margin: 10px auto;
+    font-size: 14px;
+}
+.job .joblist1{
+    width: 85%;
+    margin: 10px auto;
+    font-size: 14px;
+}
+.job .joblist1 .sex{
+    display: inline-block;
+    width: 30%;
+}
+.job .joblist input{
+    width: 25%;
+    height: 32px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+textarea{
+    margin-top: 10px;
+    width: 100%;
+    height: 140px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding:8px;
+    box-sizing: border-box;
+}
+.job .push{
+    width: 30%;
+    margin: 20px auto;
+    position: relative;
+}
+.job .push button{
+    cursor: pointer;
+}
+.job .sus{
+    position: absolute;
+    left: 120px;
+    top: 10px;
+}

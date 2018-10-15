@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_774011_i2c4vfxy6ok.css">
+    <link rel="stylesheet" href="static/css/index..css">
+    <title>首页</title>
+</head>
+<body>
+{{data}}
+    <a name="top"></a>
+    <header>
+        <main>
+            <div class="mar">
+                <div class="logo"><a href="/"><img src="/static/img/logo.png" alt=""></a></div>
+                <div class="right">
+                    <ul>
+                        <li><a href="/">首页</a></li>
+                        <li><a href="/products">农场产品</a></li>
+                        <li><a href="/news-center">新闻中心</a></li>
+                        <li><a href="/join">加入我们</a></li>
+                        <li><a href="/call">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </header>
+    <section>
+       <main>
+           <div class="second">
+               <img src="/static/img/bg.jpg" alt="">
+               <div class="h1">
+                   <a href="/news-center" target="_blank">我 们 的 理 念</a>
+               </div>
+               <div class="h2">
+                   <a href="/news-center" target="_blank"> P H I L O S O P H Y</a>
+               </div>
+               <div class="h3"><a href="/news-center" target="_blank"></a></div>
+               <div class="h4">
+                   <a href="/news-center" target="_blank">farm to table</a>
+               </div>
+               <div class="h5">
+                   <a href="/news-center" target="_blank">“ 把 农 产 品 搬 上 餐 桌 ”</a>
+               </div>
+           </div>
+       </main>
+    </section>
+    <section>
+        <div class="box">
+            <ul>
+                <li>
+                    <div class="picture"><img src="/static/img/hand.png" alt=""></div>
+                    <div class="num">12000+</div>
+                    <div class="type">成功案例</div>
+                </li>
+                <li>
+                    <div class="picture"><img src="/static/img/house.png" alt=""></div>
+                    <div class="num">010+</div>
+                    <div class="type">解决方案</div>
+                </li>
+                <li>
+                    <div class="picture"><img src="/static/img/flower.png" alt=""></div>
+                    <div class="num">200+</div>
+                    <div class="type">合作伙伴</div>
+                </li>
+                <li>
+                    <div class="picture"><img src="/static/img/tree.png" alt=""></div>
+                    <div class="num">050</div>
+                    <div class="type">技术专利</div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="news">
+            <div class="new"><a href="/news-center" target="_blank">NEWS</a></div>
+            <div class="xilie">
+                <a href="/news-center" target="_blank">
+                    <span class="span1"></span>
+                    产品系列
+                    <span class="span2"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="content">
+            <ul>
+                <li>
+                    <div class="biaoti">
+                        <a href="/news2" target="_blank" title="上海市嘉定区抽检食用农产品20批次样品全合格">上海市嘉定区抽检食用农产品20批次样品全合格</a>
+                    </div>
+                    <div class="pp">
+                        <p>当今最领先的响应式自助建站平台，我们的流线式网页布局设计方案和可视化图文内容编辑...</p>
+                    </div>
+                    <div class="bott">
+                        <a href="/news2" target="_blank" title="上海市嘉定区抽检食用农产品20批次样品全合格">→</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="biaoti">
+                        <a href="/news3" target="_blank" title="农产品交易不获联交所批准供股及发行票据 大升26%">农产品交易不获联交所批准供股及发行票据 大升26%</a>
+                    </div>
+                    <div class="pp">
+                        <p>当今最领先的响应式自助建站平台，我们的流线式网页布局设计方案和可视化图文内容编辑...</p>
+                    </div>
+                    <div class="bott">
+                        <a href="/news3" target="_blank" title="农产品交易不获联交所批准供股及发行票据 大升26%">→</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="biaoti">
+                        <a href="/news4" target="_blank" title="科学用好投入品 产出安全农产品">科学用好投入品 产出安全农产品</a>
+                    </div>
+                    <div class="pp">
+                        <p>当今最领先的响应式自助建站平台，我们的流线式网页布局设计方案和可视化图文内容编辑...</p>
+                    </div>
+                    <div class="bott">
+                        <a href="/news4" target="_blank" title="科学用好投入品 产出安全农产品">→</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="news1">
+            <div class="new"><a href="/products" target="_blank">PRODUCT</a></div>
+            <div class="xilie">
+                <a href="/products" target="_blank">
+                    <span class="span1"></span>
+                    产品系列
+                    <span class="span2"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="content1">
+            <ul>
+                {% for item in data%}
+                <li>
+                    <div class="tu">
+                        <a href="/fruit{{item[4]}}_{{item[0]}}" target="_blank" title="果蔬品种01"><img src="{{item[2]}}" alt=""></a>
+                    </div>
+                    <div class="bott">
+                        <a href="/fruit{{item[4]}}_{{item[0]}}" target="_blank" title="果蔬品种01">{{item[1]}}</a>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="top">
+            <ul>
+                <li>
+                    <div class="ttop">关于我们</div>
+                    <div class="btop"><span style="font-family: 微软雅黑;">可视化图文内容编辑让网站制作和维护成为一件轻松的事。普通用户还是专业制作人员都能使用起飞页设计出最具专业水准的网站。</span></div>
+                </li>
+                <li>
+                    <div class="ttop">联系我们</div>
+                    <div class="btop1">
+                        <div>咨询电话 : 4000-000-100</div>
+                        <div>商务合作 : abc@abcde.com</div>
+                        <div>联系我们 : abcd@abcde.com</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="ttop">帮助与支持</div>
+                    <div class="btop2">
+                        <div><a href="/call" target="_blank">帮助中心</a></div>
+                        <div><a href="/call" target="_blank">服务条款</a></div>
+                        <div><a href="/call" target="_blank">常见问题</a></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="ttop">关注我们</div>
+                    <img src="/static/img/code.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="bottom"> 版权所有 有限公司&copy;2020   地址：苏州市工业园区金鸡湖大道99号    苏ICP备0001000号</div>
+    </footer>
+    <div class="font" title="回顶部"><a href="/#top"><i class="iconfont icon-huidingbu" ></i></a></div>
+</body>
+</html>
